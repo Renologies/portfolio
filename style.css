@@ -16,3 +16,23 @@ h1 {
   margin: 0;
   transform: translateY(-10vh);
 }
+
+footer {
+  position: fixed;
+  bottom: 2rem;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+footer a {
+  color: #87cefa;
+  font-size: 1.5rem;
+  transition: opacity 0.2s;
+}
+
+footer a:hover {
+  opacity: 0.6;
+}
